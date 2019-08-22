@@ -13,6 +13,6 @@ workflows:
       - aws-ecs/deploy-service-update:
         requires:
           - aws-ecr/build_and_push_image
-          family: "${AWS_RESOURCE_NAME_PREFIX}-service"
-          cluster-name: "${AWS_RESOURCE_NAME_PREFIX}-cluster"
-          container-image-name-updates: "containter=${AWS_RESOURCE_NAME_PREFIX}-service,tag=${CIRCLE_SHA1}"
+        family: "${AWS_RESOURCE_NAME_PREFIX}-service"
+        cluster-name: "${AWS_RESOURCE_NAME_PREFIX}-cluster"
+        container-image-name-updates: "containter=${AWS_RESOURCE_NAME_PREFIX}-service,tag=${CIRCLE_SHA1}"
