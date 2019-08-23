@@ -1,2 +1,3 @@
 # circleci-orb-ecs-ecr
-Orb
+
+Learn about how to deploy automatically to ECR/ECS using CircleCIb
