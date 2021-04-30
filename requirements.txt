@@ -56,7 +56,7 @@ six==1.11.0
 subprocess32-ext==3.2.8.2
 typed-ast==1.4.0
 tzlocal==2.0.0
-urllib3==1.25.3
+urllib3==1.25.8
 wcwidth==0.1.7
 websocket-client==0.56.0
 Werkzeug==0.15.5
